@@ -13,7 +13,7 @@
 
     <section>
       <img src="image/bghome.png" class="home">
-      <img src="image/logo.png" class="flowerhome">
+      <img src="image/logo.png" class="flowerhome lax" data-lax-translate-y="0 1, 400 -150">
       <img src="image/downarrow.png" class="downarrow">
     </section>
 
@@ -35,23 +35,39 @@
       </content1>
     </section>
 
-    <section>
-    <div class="slide-container">
-      <div class="slide"><h1>First slide</h1></div>
-      <div class="slide"><h1>Second slide</h1></div>
-      <div class="slide"><h1>Third slide</h1></div>    
-    </div>
-    </section>
+
+      <div class="outer-wrapper">
+        <div class="wrapper">
+          <div class="slide one"></div>
+          <div class="slide two"></div>
+          <div class="slide three"></div>
+          <div class="slide four"></div>
+        </div>
+      </div>
+
 
       
 
-
+<script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+<script>
+  window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
+</script>
 
 </body>
 </html>
