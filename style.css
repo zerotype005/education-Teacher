@@ -1,7 +1,13 @@
 body{
-    background-color:white;
+    background-color:black;
     margin: 0;
     height: 100vh;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
 }
 html { 
     scroll-snap-type: y proximity;
@@ -40,6 +46,24 @@ img{
 .bg2{
     width: 100vw;
     height: 100vh;
+}
+.maintext1{
+    font-size: 10rem;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+}
+.ptext1{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    
+}
+.ptext2{
+    position: absolute;
+    top: 70%;
+    left: 5%;
 }
 .flowerhome{
     position: absolute;
