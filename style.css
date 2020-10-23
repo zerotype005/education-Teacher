@@ -92,10 +92,6 @@ img{
     width: 30%;
 }
 
-
-
-
-
 .slide {
     width: 100vw;
     height: 100vh;
@@ -103,19 +99,16 @@ img{
   .wrapper {
     display: flex;
     flex-direction: row;
-    width: 400vw;
+    width: 300vw;
   }
   .one {
-    background: #efdefe;
+    background: black;
   }
   .two {
     background: #a3f3d3;
   }
   .three {
     background: #0bbaa0;
-  }
-  .four {
-    background: #00dfdf;
   }
 
   .wrapper {
