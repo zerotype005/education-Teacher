@@ -54,6 +54,23 @@ img{
     left: 5%;
 
 }
+.downarrow{
+    position: absolute;
+    top: 85%;
+    width:100px;
+    right: 45%;
+    animation-name: moveup;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes moveup {
+    0% {top: 85%;}
+    25% {top: 90%;}
+    50% {top: 85%;}
+  }
+
 .ptext1{
     position: absolute;
     top: 55%;
