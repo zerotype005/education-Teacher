@@ -2,11 +2,27 @@ body{
     background-color:black;
     margin: 0;
     height: 100vh;
+ 
+
 }
+@font-face {
+  font-family: "Trirong";
+  src:url("/Trirong/Trirong-Regular.ttf")
+     
+}
+@font-face {
+  font-family: "zuzu";
+  src:url("/ZUzu/zuzu.ttf")
+     
+}
+  
+  
+    
 p{
     color: white;
 }
 h1{
+    font-family: "zuzu";
     color: white;
 }
 html { 
