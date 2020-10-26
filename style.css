@@ -72,8 +72,15 @@ img{
 .tehead3{
   font-size: 6rem;
   position: relative;
+  top: 20%;
+  left: 10%;
   color: white;
 
+}
+.ptextslice3{
+  position: relative;
+  top: 30%;
+  left: 10%;
 }
 .downarrow{
     position: absolute;
