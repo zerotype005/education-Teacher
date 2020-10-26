@@ -82,6 +82,19 @@ img{
   top: 30%;
   left: 10%;
 }
+.ptextslice4{
+  position: absolute;
+  top: 60%;
+  right: 15%;
+}
+.tehead4{
+  font-size: 5rem;
+  position: absolute;
+  top: 35%;
+  right:  15%;
+  color: white;
+
+}
 .downarrow{
     position: absolute;
     top: 80%;
