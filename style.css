@@ -46,7 +46,7 @@ img{
     top: 0;
 
 }
-.bg2{
+.bg{
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -106,7 +106,7 @@ img{
     background: black;
   }
   .two {
-    background: #a3f3d3;
+    background: black;
   }
   .three {
     background: #0bbaa0;
