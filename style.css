@@ -10,6 +10,7 @@ h1{
     color: white;
 }
 html { 
+    scroll-behavior: smooth;
     scroll-snap-type: y proximity;
   }
 section {
@@ -100,7 +101,7 @@ img{
   .wrapper {
     display: flex;
     flex-direction: row;
-    width: 300vw;
+    width: 400vw;
   }
   .one {
     background: black;
@@ -110,6 +111,9 @@ img{
   }
   .three {
     background: #0bbaa0;
+  }
+  .four{
+    background: black;
   }
 
   .wrapper {
