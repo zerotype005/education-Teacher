@@ -69,6 +69,12 @@ img{
   top: 30%;
   left: 40%;
 }
+.tehead3{
+  font-size: 6rem;
+  position: relative;
+  color: white;
+
+}
 .downarrow{
     position: absolute;
     top: 85%;
