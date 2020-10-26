@@ -90,9 +90,15 @@ img{
 .tehead4{
   font-size: 5rem;
   position: absolute;
-  top: 35%;
-  right:  15%;
+  top: 30%;
+  right:  16.5%;
   color: white;
+
+}
+.ptextslice4-2{
+  position: absolute;
+  top: 80%;
+  left: 80%;
 
 }
 .downarrow{
