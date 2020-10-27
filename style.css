@@ -16,8 +16,6 @@ body{
   src:url("/ZUzu/zuzu.ttf")
      
 }
-  
-  
     
 p{
     color: white;
@@ -50,11 +48,19 @@ img{
     left: 50%;
     transform: translatex(-50%);
 }
-.navbar{
-    position: absolute;
-    width: 100%;
-
+.navbar {
+  position: fixed;
+  top: -1;
+  width: 100vw;
+  padding: 1rem;
+  text-indent: 2rem;
+  z-index: 1;
+  
 }
+.bg-dark{
+  background-color: black !important;
+}
+
 .bg-transparent{
     background-color: transparent;
 }
@@ -72,9 +78,15 @@ img{
     height: 100vh;
 }
 .thome{
-  font-size: 18vw;
+  font-size: 15vw;
   position: relative;
-  top: 10%;
+  top: 5%;
+  left: 20%;
+}
+.thome2{
+  font-size: 15vw;
+  position: relative;
+  top: -5%;
   left: 20%;
 }
 .thead2{
@@ -139,7 +151,7 @@ img{
 
 .ptext1{
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 5%;
     
 }
@@ -188,7 +200,7 @@ img{
       transform-origin: top left;
       overflow-y: scroll;
       overflow-x: hidden;
-      position: absolute;
+      position: relative;
     }
 
     .outer-wrapper {
@@ -198,6 +210,8 @@ img{
         ::-webkit-scrollbar {
           display:none;
         }
-
+.hide{
+  display: none;
+}
 
 
