@@ -52,6 +52,10 @@
         หากมองลึกลงไปแล้ว<br>
         เหตุของปัญหาที่แท้จริง อาจเกิดจากคุณครู
         </p>
+        <div class="popup">
+          <img src="image/popup.png">
+          <a class="close" onclick="closepop()"></a>
+        </div>
       </content>
           </div>
           <div class="slide two" id="s2">
@@ -123,6 +127,11 @@
 	}
 
 	window.requestAnimationFrame(updateLax)
+}
+
+const popupclose = document.getElementsByClassName("popup");
+function closepop(){
+  popupclose.classList.add("hide");
 }
 </script>
 
