@@ -223,6 +223,7 @@ img{
   width: 32px;
   height: 32px;
   opacity: 1;
+  cursor: pointer;
 }
 .close:hover {
   opacity: 0.3;
