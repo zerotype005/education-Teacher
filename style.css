@@ -55,6 +55,7 @@ img{
   padding: 1rem;
   text-indent: 2rem;
   z-index: 1;
+  scroll-snap-align: end;
   
 }
 .bg-dark{
