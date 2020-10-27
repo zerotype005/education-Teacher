@@ -210,7 +210,7 @@ img{
         ::-webkit-scrollbar {
           display:none;
         }
-.popup{
+#popup{
   width: 40%;
   position: relative;
   top: -50%;
