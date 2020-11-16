@@ -265,37 +265,66 @@ img{
   width: 15vw;
   position: absolute;
   right: 30%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnknow:hover{
+  transform: scale(1.1, 1.1);
 }
 .btnchance{
   width: 15vw;
   position: absolute;
   top: 29vw;
   right: 30%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnchance:hover{
+  transform: scale(1.1, 1.1);
 }
 .btnex{
   width: 15vw;
   position: absolute;
   top: 32vw;
   right: 30%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnex:hover{
+  transform: scale(1.1, 1.1);
 }
 .btnlife{
   width: 15vw;
   position: absolute;
   top: 35vw;
   right: 30%;
-
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnlife:hover{
+  transform: scale(1.1, 1.1);
 }
 .btnthnk{
   width: 15vw;
   position: absolute;
   top: 38vw;
   right: 30%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnthnk:hover{
+  transform: scale(1.1, 1.1);
 }
 .btnforgive{
   width: 15vw;
   position: absolute;
   top: 42vw;
   right: 30%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btnforgive:hover{
+  transform: scale(1.1, 1.1);
 }
 /* หน้าครูผู้มีบทบาทย่อย */
 .btnteacher1{
