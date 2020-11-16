@@ -254,5 +254,60 @@ img{
 .hide{
   display: none;
 }
+/* หน้าครูผู้มีบทบาทย่อย */
+.btnteacher1{
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  width: 30vw;
+  
+}
+.btnteacher2{
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  width: 30vw;
+}
+.headteach{
+  margin-top: 5vw;
+  font-size: 8vw;
+}
+.subheadteach{
+  color: #7dada4;
+}
+.backbtn1{
+  position: relative;
+  left: 40%;
+  width: 80%;
+  cursor: pointer;
+}
+.rigttextteach{
+  position: relative;
+  top: 15%;
+}
 
-
+/* หน้าครูผู้มีบทบาทย่อย 2*/
+.headeverything{
+  font-size: 8vw;
+}
+.hiteacher{
+  color: #DB4424;
+}
+.coneverything{
+  position: relative;
+  top: 10%;
+  left: 35%;
+}
+.footteach{
+  width: 100vw;
+  position: absolute;
+  top: 0%;
+}
+.backbtn2{
+  position: absolute;
+  top: 10%;
+  width: 30%;
+  cursor: pointer;
+}

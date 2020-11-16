@@ -62,12 +62,15 @@
           <div class="slide two" id="s2">
             <img src="image/animate_section3.gif" class="bg">
             <img src="image/bg3.png" class="bg">
+            
             <content>
             <h1 class="thead2">ครูผู้<br>มีบทบาทสำคัญ</h1>
             <p class="ptextslice2">ภาพลักษณ์ของครูนั้นช่างสวยงาม ในบรรดาอาชีพทั้งหมด<br> 
               เรามีเพลง พิธีการและธรรมเนียมปฏิบัติที่แสดงให้เห็นว่า<br>
               อาชีพครูเป็นอาชีพที่น่ายกย่องและมีเกียรติมากแค่ไหน </p>
             </content>
+            <img src="image/teacherbotton1.png" class="btnteacher1" onclick="link1()">
+            <img src="image/whoteacherbotton2.png" class="btnteacher2" onclick="link2()">
           </div>
           <div class="slide three" id="s3">
             <img src="image/animate_hand.gif" class="bg">
@@ -133,6 +136,13 @@
 const popupclose = document.getElementById("popup");
 function closepop(){
   popupclose.classList.add("hide");
+}
+
+function link1(){
+  location.href = "whoisteacher.html"
+}
+function link2(){
+  location.href = ""
 }
 </script>
 
