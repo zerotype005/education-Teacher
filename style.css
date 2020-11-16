@@ -1,53 +1,55 @@
-body{
-    background-color:black;
-    margin: 0;
-    height: 100vh;
-    font-family: "Trirong";
- 
-
+body {
+  background-color: black;
+  margin: 0;
+  height: 100vh;
+  font-family: "Trirong";
 }
+
 @font-face {
   font-family: "Trirong";
-  src:url("/Trirong/Trirong-Regular.ttf")
-     
+  src: url("/Trirong/Trirong-Regular.ttf")
 }
+
 @font-face {
   font-family: "zuzu";
-  src:url("/ZUzu/zuzu.ttf")
-     
+  src: url("/ZUzu/zuzu.ttf")
 }
-    
-p{
-    color: white;
-    font-size: 1vw;
+
+p {
+  color: white;
+  font-size: 1vw;
 }
-h1{
-    font-family: "zuzu";
-    color: white;
-  
+
+h1 {
+  font-family: "zuzu";
+  color: white;
 }
-html { 
-    scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
-  }
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
 section {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    scroll-snap-align: start;
-    max-width: 100%;
-    max-height: 100%;
-  }
-img{
-    max-width: 100%;
-    max-height: 100%;
-  }
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .navbar-nav.navbar-center {
-    position: relative;
-    left: 50%;
-    transform: translatex(-50%);
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
 }
+
 .navbar {
   position: sticky;
   top: -1;
@@ -56,173 +58,217 @@ img{
   text-indent: 2rem;
   z-index: 1;
   scroll-snap-align: end;
-  
 }
-.bg-dark{
+
+.bg-dark {
   background-color: black !important;
 }
 
-.bg-transparent{
-    background-color: transparent;
+.bg-transparent {
+  background-color: transparent;
 }
-.home{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
 
+.home {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
-.bg{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
-.thome{
+
+.thome {
   font-size: 15vw;
   position: relative;
   top: 5%;
   left: 10%;
 }
-.thome2{
+
+.thome2 {
   font-size: 15vw;
   position: relative;
   top: -5%;
   left: 10%;
 }
-.thead2{
+
+.thead2 {
   font-size: 10vw;
   position: relative;
   top: 20%;
   left: 40%;
 }
-.ptextslice2{
+
+.ptextslice2 {
   position: relative;
   top: 20%;
   left: 40%;
 }
-.tehead3{
+
+.tehead3 {
   font-size: 15vw;
   position: relative;
   top: 20%;
   left: 10%;
   color: white;
-
 }
-.ptextslice3{
+
+.ptextslice3 {
   position: relative;
   top: 20%;
   left: 10%;
 }
-.ptextslice4{
+
+.ptextslice4 {
   position: absolute;
   top: 60%;
   right: 15%;
 }
-.tehead4{
+
+.tehead4 {
   font-size: 10vw;
   position: absolute;
   top: 10%;
-  right:  16.5%;
+  right: 16.5%;
   color: white;
-
 }
-.ptextslice4-2{
+
+.ptextslice4-2 {
   position: absolute;
   top: 80%;
   left: 80%;
-
 }
-.downarrow{
-    position: absolute;
-    top: 80%;
-    width:100px;
-    right: 45%;
-    animation-name: moveup;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
+
+.downarrow {
+  position: absolute;
+  top: 80%;
+  width: 100px;
+  right: 45%;
+  animation-name: moveup;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes moveup {
-    0% {top: 80%;}
-    25% {top: 85%;}
-    50% {top: 80%;}
+  0% {
+    top: 80%;
   }
+  25% {
+    top: 85%;
+  }
+  50% {
+    top: 80%;
+  }
+}
 
-.ptext1{
-    position: absolute;
-    top: 65%;
-    left: 3%;
-    
+.ptext1 {
+  position: absolute;
+  top: 65%;
+  left: 3%;
 }
-.ptext2{
-    position: absolute;
-    top: 75%;
-    left: 3%;
+
+.ptext2 {
+  position: absolute;
+  top: 75%;
+  left: 3%;
 }
-.ptext3{
+
+.ptext3 {
   color: #7DADA4;
   position: absolute;
-    top: 85%;
-    left: 3%;
+  top: 85%;
+  left: 3%;
 }
-.flowerhome{
-    position: absolute;
-    left: 35%;
-    top: 20%;
-    width: 30%;
+
+.flowerhome {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  width: 30%;
+}
+
+#bnt21 {
+  background-image: url('image/ปาดฟ้า.png');
+  background-size: contain;
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 70px;
+  font-size: 50px;
+  font-family: "zuzu";
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  color: #727272;
+  text-align: center;
+}
+
+#bnt21:hover{
+  color: white;
 }
 
 .slide {
-    width: 100vw;
-    height: 100vh;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 400vw;
-  }
-  .one {
-    background: black;
-  }
-  .two {
-    background: black;
-  }
-  .three {
-    background: #0bbaa0;
-  }
-  .four{
-    background: black;
-  }
+  width: 100vw;
+  height: 100vh;
+}
 
-  .wrapper {
-      transform: rotate(90deg) translateY(-100vh);
-      transform-origin: top left;
-    }
-    .outer-wrapper {
-      width: 100vh;
-      height: 100vw;
-      transform: rotate(-90deg) translateX(-100vh);
-      transform-origin: top left;
-      overflow-y: scroll;
-      overflow-x: hidden;
-      position: relative;
-    }
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+}
 
-    .outer-wrapper {
-          scrollbar-width: none;
-          -ms-overflow-style: none;
-        }
-        ::-webkit-scrollbar {
-          display:none;
-        }
-#popup{
+.one {
+  background: black;
+}
+
+.two {
+  background: black;
+}
+
+.three {
+  background: #0bbaa0;
+}
+
+.four {
+  background: black;
+}
+
+.wrapper {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.outer-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#popup {
   width: 40%;
   position: relative;
   top: -50%;
   left: 25%;
 }
+
 .close {
   position: absolute;
   right: 32px;
@@ -232,27 +278,28 @@ img{
   opacity: 1;
   cursor: pointer;
 }
+
 .close:hover {
   opacity: 0.3;
 }
+
 .close:before, .close:after {
-  background-color:white;
+  background-color: white;
   position: absolute;
   left: 15px;
   content: ' ';
   height: 33px;
   width: 3px;
-  
 }
+
 .close:before {
   transform: rotate(45deg);
 }
+
 .close:after {
   transform: rotate(-45deg);
 }
 
-.hide{
+.hide {
   display: none;
 }
-
-
