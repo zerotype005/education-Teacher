@@ -268,7 +268,10 @@ img{
   left: 40%;
   top: 10%;
   width: 30vw;
-  
+  transition: 0.5s;
+}
+.btnteacher1:hover{
+  transform: scale(1.1, 1.1);
 }
 .btnteacher2{
   cursor: pointer;
@@ -276,6 +279,10 @@ img{
   left: 40%;
   top: 25%;
   width: 30vw;
+  transition: 0.5s;
+}
+.btnteacher2:hover{
+  transform: scale(1.1, 1.1);
 }
 .headteach{
   margin-top: 5vw;
