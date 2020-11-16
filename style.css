@@ -254,6 +254,13 @@ img{
 .hide{
   display: none;
 }
+.prighttext{
+  color: #7DADA4;
+  position: absolute;
+  top: 60%;
+  right: 3%;
+
+}
 /* หน้าครูผู้มีบทบาทย่อย */
 .btnteacher1{
   cursor: pointer;
