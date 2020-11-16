@@ -261,6 +261,42 @@ img{
   right: 3%;
 
 }
+.btnknow{
+  width: 15vw;
+  position: absolute;
+  right: 30%;
+}
+.btnchance{
+  width: 15vw;
+  position: absolute;
+  top: 29vw;
+  right: 30%;
+}
+.btnex{
+  width: 15vw;
+  position: absolute;
+  top: 32vw;
+  right: 30%;
+}
+.btnlife{
+  width: 15vw;
+  position: absolute;
+  top: 35vw;
+  right: 30%;
+
+}
+.btnthnk{
+  width: 15vw;
+  position: absolute;
+  top: 38vw;
+  right: 30%;
+}
+.btnforgive{
+  width: 15vw;
+  position: absolute;
+  top: 42vw;
+  right: 30%;
+}
 /* หน้าครูผู้มีบทบาทย่อย */
 .btnteacher1{
   cursor: pointer;
