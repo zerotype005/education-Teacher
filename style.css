@@ -160,19 +160,19 @@ img{
 
 .ptext1{
     position: absolute;
-    top: 60%;
+    top: 60vh;
     left: 3%;
     
 }
 .ptext2{
     position: absolute;
-    top: 70%;
+    top: 70vh;
     left: 3%;
 }
 .ptext3{
   color: #7DADA4;
   position: absolute;
-    top: 80%;
+    top: 80vh;
     left: 3%;
 }
 .flowerhome{
