@@ -75,8 +75,8 @@ img{
 
 }
 .popupimg{
-  position: relative;
-  top: 10vw;
+  position: absolute;
+  top: -5vw;
   width: 40vw;
 }
 .bg{
@@ -348,7 +348,7 @@ img{
   cursor: pointer;
   position: absolute;
   left: 40%;
-  top: 25%;
+  top: 30%;
   width: 30vw;
   transition: 0.5s;
 }
