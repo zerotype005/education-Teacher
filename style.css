@@ -32,6 +32,9 @@ h1{
     color: white;
   
 }
+h3{
+  font-size: 2vw;
+}
 html { 
     scroll-behavior: smooth;
     scroll-snap-type: y proximity;
