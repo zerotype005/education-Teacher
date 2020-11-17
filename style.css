@@ -16,6 +16,12 @@ body{
   src:url("/ZUzu/zuzu.ttf")
      
 }
+.the-warpper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+}
     
 p{
     color: white;
@@ -67,7 +73,6 @@ img{
 }
 .home{
     width: 100%;
-    height: 100%;
     position: absolute;
     z-index: -1;
     top: 0;
@@ -176,7 +181,6 @@ img{
 
 .slide {
     width: 100vw;
-    height: 100vh;
   }
   .wrapper {
     display: flex;
