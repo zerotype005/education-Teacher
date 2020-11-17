@@ -101,30 +101,30 @@ img{
 .thead2{
   font-size: 10vw;
   position: relative;
-  top: 20%;
+  top: 20vh;
   left: 40%;
 }
 .ptextslice2{
   position: relative;
-  top: 20%;
+  top: 20vh;
   left: 40%;
 }
 .tehead3{
   font-size: 15vw;
   position: relative;
-  top: 20%;
+  top: 20vh;
   left: 10%;
   color: white;
 
 }
 .ptextslice3{
   position: relative;
-  top: 20%;
+  top: 20vh;
   left: 10%;
 }
 .ptextslice4{
   position: absolute;
-  top: 60%;
+  top: 60vh;
   right: 15%;
 }
 .tehead4{
@@ -264,7 +264,7 @@ img{
 .prighttext{
   color: #7DADA4;
   position: absolute;
-  top: 60%;
+  top: 60vh;
   right: 3%;
 
 }
