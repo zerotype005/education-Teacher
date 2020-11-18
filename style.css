@@ -363,14 +363,14 @@ img{
   color: #7dada4;
 }
 .backbtn1{
-  position: relative;
-  left: 40%;
+  position: absolute;
+  left: 10vw;
   width: 80%;
   cursor: pointer;
 }
 .rigttextteach{
   position: relative;
-  top: 15%;
+  top: 15vw;
 }
 
 /* หน้าครูผู้มีบทบาทย่อย 2*/
@@ -379,20 +379,21 @@ img{
 }
 .hiteacher{
   color: #DB4424;
+  font-size: 2vw;
 }
 .coneverything{
-  position: relative;
-  top: 10%;
-  left: 35%;
+  position: absolute;
+  top: 10vw;
+  left: 35vw;
 }
 .footteach{
   width: 100vw;
   position: absolute;
-  top: 0%;
+  top: 50vw;
 }
 .backbtn2{
   position: absolute;
-  top: 10%;
+  top: 1vw;
   width: 30%;
   cursor: pointer;
 }
