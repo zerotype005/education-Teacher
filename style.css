@@ -376,24 +376,51 @@ img{
 /* หน้าครูผู้มีบทบาทย่อย 2*/
 .headeverything{
   font-size: 8vw;
+  position: relative;
+  top: 10%;
+  left: 30vw;
+}
+.teacher-content{
+  position: relative;
+  top: 10%;
+  left: 30vw;
+  padding-right:50vw;
 }
 .hiteacher{
   color: #DB4424;
   font-size: 2vw;
+  position: relative;
+  top: 10%;
+  left: 30vw;
+  
 }
-.coneverything{
-  position: absolute;
-  top: 10vw;
-  left: 35vw;
+.contentteacher{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ flex-flow: row wrap;
+}
+.teacherbt-content{
+  position: relative;
+  top: 10%;
+  left: 30vw;
+  padding-right:50vw;
+}
+.contentteacher{
+  width: 100%;
+  height: 56vw;
 }
 .footteach{
   width: 100vw;
   position: absolute;
-  top: 50vw;
+  bottom: 0vh;
+
+  
 }
 .backbtn2{
   position: absolute;
-  top: 1vw;
+  top: 10%;
+  left: 0%;
   width: 30%;
   cursor: pointer;
 }
