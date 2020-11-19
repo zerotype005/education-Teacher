@@ -54,5 +54,24 @@ content{
 }
 .bgpage{
   width: 100%;
+  position: absolute;
+}
+.head1{
+  position: absolute;
+  top: 17%;
+  left: 14%;
+  font-size: 5vw;
+}
+.head2{
+  position: absolute;
+  top: 48.5%;
+  left: 7%;
+  font-size: 5vw;
+}
+.head3{
+  position: absolute;
+  top: 100.5%;
+  left: 7%;
+  font-size: 5vw;
 }
 
