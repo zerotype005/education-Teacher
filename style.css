@@ -372,6 +372,12 @@ img{
   position: relative;
   top: 15vw;
 }
+.teachersubpic{
+  width: 80vw;
+  position: absolute;
+  bottom: 0%;
+  left: 10%
+}
 
 /* หน้าครูผู้มีบทบาทย่อย 2*/
 .headeverything{
