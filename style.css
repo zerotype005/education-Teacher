@@ -264,7 +264,11 @@ img{
   position: absolute;
   top: 30vw;
   right: 2%;
-
+  cursor: pointer;
+  transition: 0.5s;
+}
+.prighttext:hover{
+  transform: scale(1.1,1.1);
 }
 .btnknow{
   width: 15vw;
