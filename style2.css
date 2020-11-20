@@ -90,3 +90,23 @@ content{
 }
 
 
+.headmid{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.subhead1{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    line-height: 2vw;
+}
+.red1{
+    color: #DB4424;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    line-height: 3vw;
+}
+
+
