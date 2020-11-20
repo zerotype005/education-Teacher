@@ -88,6 +88,13 @@ content{
     cursor: pointer;
 
 }
+.btn2{
+    width: 30vw;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    cursor: pointer;
+}
 
 
 .headmid{
@@ -97,7 +104,7 @@ content{
 }
 .subhead1{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 60%;
     line-height: 2vw;
 }
