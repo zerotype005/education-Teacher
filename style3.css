@@ -86,4 +86,46 @@ content{
   right: 18%;
   font-size: 5vw;
 }
-
+.subhead1{
+  position: absolute;
+  top:32%;
+  left: 15%;
+  font-size: 1vw;
+}
+.subhead2{
+  position: absolute;
+  top:65%;
+  left: 7%;
+  font-size: 1vw;
+}
+.subhead3{
+  position: absolute;
+  top:65%;
+  left: 40%;
+  font-size: 1vw;
+}
+.subhead4{
+  position: absolute;
+  top:115%;
+  left: 10%;
+  font-size: 1vw;
+}
+.subhead5{
+  position: absolute;
+  top:30%;
+  right: 14%;
+  font-size: 1vw;
+}
+.subhead6{
+  position: absolute;
+  top:135%;
+  right: 14%;
+  font-size: 1vw;
+  text-indent: 3vw;
+}
+.subhead7{
+  position: absolute;
+  top:64.5%;
+  right: 13%;
+  font-size: 1vw;
+}
