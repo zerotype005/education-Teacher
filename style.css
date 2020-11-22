@@ -1,55 +1,59 @@
-body{
-    background-color:#1b1b1b;
-    margin: 0;
-    height: 100vh;
-    font-family: "Trirong";
- 
-
+body {
+  background-color: #1b1b1b;
+  margin: 0;
+  height: 100vh;
+  font-family: "Trirong";
 }
+
 @font-face {
   font-family: "Trirong";
-  src:url("/Trirong/Trirong-Regular.ttf")
-     
+  src: url("/Trirong/Trirong-Regular.ttf")
 }
+
 @font-face {
   font-family: "zuzu";
-  src:url("/ZUzu/zuzu.ttf")
-     
+  src: url("/ZUzu/zuzu.ttf")
 }
-p{
-    color: white;
-    font-size: 1vw;
+
+p {
+  color: white;
+  font-size: 1vw;
 }
-h1{
-    font-family: "zuzu";
-    color: white;
-  
+
+h1 {
+  font-family: "zuzu";
+  color: white;
 }
-h3{
+
+h3 {
   font-size: 2vw;
 }
-html { 
-    scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
-  }
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
 section {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    scroll-snap-align: start;
-    max-width: 100%;
-    max-height: 100%;
-  }
-img{
-    max-width: 100vw;
-    max-height: 56vw;
-  }
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  max-width: 100vw;
+  max-height: 56vw;
+}
 
 .navbar-nav.navbar-center {
-    position: relative;
-    left: 50%;
-    transform: translatex(-50%);
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
 }
+
 .navbar {
   position: sticky;
   top: -1;
@@ -58,176 +62,241 @@ img{
   text-indent: 2rem;
   z-index: 1;
   scroll-snap-align: end;
-  
 }
-.bg-dark{
+
+.dropbtn {
+  color: #6f787e;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #6f787e;
+  padding: 10px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: white;
+}
+
+.bg-dark {
   background-color: black !important;
 }
 
-.bg-transparent{
-    background-color: transparent;
+.bg-transparent {
+  background-color: transparent;
 }
-.home{
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
 
+.home {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
-.popupimg{
+
+.popupimg {
   position: absolute;
   top: -5vw;
   width: 40vw;
 }
-.bg{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
-.thome{
+
+.thome {
   font-size: 15vw;
   position: relative;
   top: 5%;
   left: 10%;
 }
-.thome2{
+
+.thome2 {
   font-size: 15vw;
   position: relative;
   top: -5%;
   left: 10%;
 }
-.thead2{
+
+.thead2 {
   font-size: 10vw;
   position: relative;
   top: 15vw;
   left: 40%;
 }
-.ptextslice2{
+
+.ptextslice2 {
   position: relative;
   top: 13vw;
   left: 40%;
 }
-.tehead3{
+
+.tehead3 {
   font-size: 10vw;
   position: relative;
   top: 15vw;
   left: 10%;
   color: white;
-
 }
-.ptextslice3{
+
+.ptextslice3 {
   position: relative;
   top: 15vw;
   left: 10%;
 }
-.ptextslice4{
+
+.ptextslice4 {
   position: absolute;
   top: 30vw;
   right: 15%;
 }
-.tehead4{
+
+.tehead4 {
   font-size: 10vw;
   position: absolute;
   top: 10%;
-  right:  16.5%;
+  right: 16.5%;
   color: white;
-
 }
-.ptextslice4-2{
+
+.ptextslice4-2 {
   position: absolute;
   top: 80%;
   left: 80%;
-
 }
-.downarrow{
-    position: absolute;
-    top: 80%;
-    width:100px;
-    right: 45%;
-    animation-name: moveup;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
+
+.downarrow {
+  position: absolute;
+  top: 80%;
+  width: 100px;
+  right: 45%;
+  animation-name: moveup;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes moveup {
-    0% {top: 80%;}
-    25% {top: 85%;}
-    50% {top: 80%;}
+  0% {
+    top: 80%;
   }
+  25% {
+    top: 85%;
+  }
+  50% {
+    top: 80%;
+  }
+}
 
-.ptext1{
-    position: absolute;
-    top: 32vw;
-    left: 3%;
-    
+.ptext1 {
+  position: absolute;
+  top: 32vw;
+  left: 3%;
 }
-.ptext2{
-    position: absolute;
-    top: 37vw;
-    left: 3%;
+
+.ptext2 {
+  position: absolute;
+  top: 37vw;
+  left: 3%;
 }
-.ptext3{
+
+.ptext3 {
   color: #7DADA4;
   position: absolute;
-    top: 42vw;
-    left: 3%;
+  top: 42vw;
+  left: 3%;
 }
-.flowerhome{
-    position: absolute;
-    left: 35%;
-    top: 20%;
-    width: 30%;
+
+.flowerhome {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  width: 30%;
 }
 
 .slide {
-    width: 100vw;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 400vw;
-  }
-  .one {
-    background: #1b1b1b;
-  }
-  .two {
-    background: #1b1b1b;
-  }
-  .three {
-    background: #1b1b1b;
-  }
-  .four{
-    background: #1b1b1b;
-  }
+  width: 100vw;
+}
 
-  .wrapper {
-      transform: rotate(90deg) translateY(-100vh);
-      transform-origin: top left;
-    }
-    .outer-wrapper {
-      width: 100vh;
-      height: 100vw;
-      transform: rotate(-90deg) translateX(-100vh);
-      transform-origin: top left;
-      overflow-y: scroll;
-      overflow-x: hidden;
-      position: relative;
-    }
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+}
 
-    .outer-wrapper {
-          scrollbar-width: none;
-          -ms-overflow-style: none;
-        }
-        ::-webkit-scrollbar {
-          display:none;
-        }
-#popup{
+.one {
+  background: #1b1b1b;
+}
+
+.two {
+  background: #1b1b1b;
+}
+
+.three {
+  background: #1b1b1b;
+}
+
+.four {
+  background: #1b1b1b;
+}
+
+.wrapper {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.outer-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#popup {
   width: 40%;
   position: relative;
   top: -50%;
   left: 25%;
 }
+
 .close {
   position: absolute;
   right: 32px;
@@ -237,29 +306,33 @@ img{
   opacity: 1;
   cursor: pointer;
 }
+
 .close:hover {
   opacity: 0.3;
 }
+
 .close:before, .close:after {
-  background-color:white;
+  background-color: white;
   position: absolute;
   left: 15px;
   content: ' ';
   height: 33px;
   width: 3px;
-  
 }
+
 .close:before {
   transform: rotate(45deg);
 }
+
 .close:after {
   transform: rotate(-45deg);
 }
 
-.hide{
+.hide {
   display: none;
 }
-.prighttext{
+
+.prighttext {
   color: #7DADA4;
   position: absolute;
   top: 30vw;
@@ -267,10 +340,12 @@ img{
   cursor: pointer;
   transition: 0.5s;
 }
-.prighttext:hover{
-  transform: scale(1.1,1.1);
+
+.prighttext:hover {
+  transform: scale(1.1, 1.1);
 }
-.btnknow{
+
+.btnknow {
   width: 15vw;
   position: absolute;
   top: 25vw;
@@ -278,10 +353,12 @@ img{
   transition: 0.5s;
   cursor: pointer;
 }
-.btnknow:hover{
+
+.btnknow:hover {
   transform: scale(1.1, 1.1);
 }
-.btnchance{
+
+.btnchance {
   width: 15vw;
   position: absolute;
   top: 29vw;
@@ -289,10 +366,12 @@ img{
   transition: 0.5s;
   cursor: pointer;
 }
-.btnchance:hover{
+
+.btnchance:hover {
   transform: scale(1.1, 1.1);
 }
-.btnex{
+
+.btnex {
   width: 15vw;
   position: absolute;
   top: 32vw;
@@ -300,10 +379,12 @@ img{
   transition: 0.5s;
   cursor: pointer;
 }
-.btnex:hover{
+
+.btnex:hover {
   transform: scale(1.1, 1.1);
 }
-.btnlife{
+
+.btnlife {
   width: 15vw;
   position: absolute;
   top: 35vw;
@@ -311,21 +392,25 @@ img{
   transition: 0.5s;
   cursor: pointer;
 }
-.btnlife:hover{
+
+.btnlife:hover {
   transform: scale(1.1, 1.1);
 }
-.btnthnk{
-  width: 15vw;
+
+.btnthnk {
+  width: 14vw;
   position: absolute;
-  top: 38vw;
+  top: 39vw;
   right: 30%;
   transition: 0.5s;
   cursor: pointer;
 }
-.btnthnk:hover{
+
+.btnthnk:hover {
   transform: scale(1.1, 1.1);
 }
-.btnforgive{
+
+.btnforgive {
   width: 15vw;
   position: absolute;
   top: 42vw;
@@ -333,11 +418,14 @@ img{
   transition: 0.5s;
   cursor: pointer;
 }
-.btnforgive:hover{
+
+.btnforgive:hover {
   transform: scale(1.1, 1.1);
 }
+
 /* หน้าครูผู้มีบทบาทย่อย */
-.btnteacher1{
+
+.btnteacher1 {
   cursor: pointer;
   position: absolute;
   left: 40%;
@@ -345,10 +433,12 @@ img{
   width: 30vw;
   transition: 0.5s;
 }
-.btnteacher1:hover{
+
+.btnteacher1:hover {
   transform: scale(1.1, 1.1);
 }
-.btnteacher2{
+
+.btnteacher2 {
   cursor: pointer;
   position: absolute;
   left: 40%;
@@ -356,27 +446,33 @@ img{
   width: 30vw;
   transition: 0.5s;
 }
-.btnteacher2:hover{
+
+.btnteacher2:hover {
   transform: scale(1.1, 1.1);
 }
-.headteach{
+
+.headteach {
   margin-top: 5vw;
   font-size: 8vw;
 }
-.subheadteach{
+
+.subheadteach {
   color: #7dada4;
 }
-.backbtn1{
+
+.backbtn1 {
   position: absolute;
   left: 10vw;
   width: 80%;
   cursor: pointer;
 }
-.rigttextteach{
+
+.rigttextteach {
   position: relative;
   top: 15vw;
 }
-.teachersubpic{
+
+.teachersubpic {
   width: 80vw;
   position: absolute;
   bottom: 0%;
@@ -384,50 +480,55 @@ img{
 }
 
 /* หน้าครูผู้มีบทบาทย่อย 2*/
-.headeverything{
+
+.headeverything {
   font-size: 8vw;
   position: relative;
   top: 10%;
   left: 30vw;
 }
-.teacher-content{
+
+.teacher-content {
   position: relative;
   top: 10%;
   left: 30vw;
-  padding-right:50vw;
+  padding-right: 50vw;
 }
-.hiteacher{
+
+.hiteacher {
   color: #DB4424;
   font-size: 2vw;
   position: relative;
   top: 10%;
   left: 30vw;
-  
 }
-.contentteacher{
- width: 100%;
- height: 100vh;
- display: flex;
- flex-flow: row wrap;
+
+.contentteacher {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
 }
-.teacherbt-content{
+
+.teacherbt-content {
   position: relative;
   top: 10%;
   left: 30vw;
-  padding-right:50vw;
+  padding-right: 50vw;
 }
-.contentteacher{
+
+.contentteacher {
   width: 100%;
   height: 56vw;
 }
-.footteach{
+
+.footteach {
   width: 100vw;
   position: absolute;
   bottom: 0vh;
-
-  
 }
-.backbtn2{
+
+.backbtn2 {
   position: absolute;
   top: 10%;
   left: 0%;
